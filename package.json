@@ -1,0 +1,15 @@
+{ "name" : "crowbarform",
+  "description" : "A library for slinging blocks of text",
+  "main" : "./lib/formlib.js",
+  "version": "0.0.1",
+  "dependencies": {
+	"async": ">=0.1.22",
+	"textblocks": "git://github.com/wirehead/textblocks.git#master",
+	"pithy": ">=0.0.4"
+  },
+  "devDependencies": {
+  	"cheerio": ">=0.11.0",
+	"whiskey": ">=0.6.10",
+	"nodelint": "=0.6.2"
+  }
+}
